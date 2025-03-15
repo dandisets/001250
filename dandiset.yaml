@@ -3,9 +3,16 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about:
+- identifier: UBERON:0008930
+  name: Primary Somatosensory Cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'Enny Van Beest; Jennifer Colonell; Alessio Buccino; Marius Pachitariu;
+  Ilias Rentzeperis; Cameron Mckenzie; Daniela Egas Santander; Christoph Pokorny;
+  Andras Ecker; Natali Barros Zulaica; Karin Holm; BBP Core Services team; '
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -21,9 +28,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 782105249386
-  numberOfFiles: 20
-  numberOfSubjects: 19
+  numberOfBytes: 815228150150
+  numberOfFiles: 21
+  numberOfSubjects: 20
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -33,28 +40,143 @@ assetsSummary:
   - ElectricalSeries
   - Units
   - ElectrodeGroup
-citation: Laquitaine, Steeve (2024) Spike sorting biases in a detailed model of dense
-  large-scale recordings (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001250/draft
+citation: Laquitaine, Steeve; Milo Imbeni; Tharayil, Joseph; Isbister, James; Reimann,
+  Michael (2025) Spike sorting biases and information loss in a detailed cortical
+  model (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001250/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: Sorbonne University, Vision Institute
+    schemaKey: Affiliation
   email: laquitainesteeve@gmail.com
+  identifier: 0000-0002-9647-3149
   includeInCitation: true
   name: Laquitaine, Steeve
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Maintainer
+  - dcite:Methodology
+  - dcite:ProjectLeader
+  - dcite:ProjectMember
+  - dcite:Researcher
+  - dcite:Software
+  - dcite:Supervision
+  - dcite:Validation
+  - dcite:Visualization
   schemaKey: Person
+  url: https://steevelaquitaine.github.io
+- email: milo.imbeni@maastrichtuniversity.nl
+  identifier: 0000-0002-4482-8390
+  includeInCitation: true
+  name: Milo Imbeni
+  roleName:
+  - dcite:Investigation
+  - dcite:Author
+  - dcite:Methodology
+  schemaKey: Person
+  url: https://orcid.org/0000-0002-4482-8390
+- email: tharayiljoe@gmail.com
+  identifier: 0000-0002-2390-4104
+  includeInCitation: true
+  name: Tharayil, Joseph
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:Methodology
+  schemaKey: Person
+  url: https://orcid.org/0000-0002-2390-4104
+- email: james.isbister@openbraininstitute.org
+  identifier: 0000-0002-1013-3013
+  includeInCitation: true
+  name: Isbister, James
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:Methodology
+  schemaKey: Person
+  url: https://orcid.org/0000-0002-1013-3013
+- email: michael.reimann@openbraininstitute.org
+  identifier: 0000-0003-3455-2367
+  includeInCitation: true
+  name: Reimann, Michael
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:FundingAcquisition
+  - dcite:ProjectManager
+  - dcite:Investigation
+  schemaKey: Person
+  url: https://orcid.org/0000-0003-3455-2367
 dateCreated: '2024-11-07T14:18:15.892414+00:00'
-description: Dataset for the Spike sorting biases in a detailed model of dense large-scale
-  recordings paper.
+description: "Dataset for the publication: \"Spike sorting biases and information
+  loss in a detailed cortical model\" containing:\n- 1) Biophysical simulations of
+  high-density extracellular recordings of an entire cortical microcircuit activity
+  with virtual reconstructions of the Neuropixels 1.0 probe and the Horvath dense
+  probe  Spontaneous and stimulus-evoked regime of activity were simulated for the
+  Neuropixels probe. \n\n- 2) The ground truth spike timestamps of neurons within
+  50 microns of the electrodes (about 1000 neurons).\n"
+ethicsApproval:
+- {}
 id: DANDI:001250/draft
 identifier: DANDI:001250
+keywords:
+- spike sorting quality
+- ' Neuropixels'
+- ' biophysical model'
+- neocortex
+- neural manifold
+- ' information geometry '
+- population analysis
+- Mean- Field Theoretic Manifold Analysis
+- Wavemap
+- CEBRA
+- spike sorting curation
+- hybrid synthetic model
+- synthetic model
+- large-scale extracellular recording
+- rat
+- dense electrode arrays
+- power spectral analysis
+- machine learning
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001250/versions/draft/assets/
-name: Spike sorting biases in a detailed model of dense large-scale recordings
+name: Spike sorting biases and information loss in a detailed cortical model
+protocol:
+- https://www.biorxiv.org/content/10.1101/2024.12.04.626805v2
+relatedResource:
+- name: spikebias code repository
+  relation: dcite:IsPartOf
+  repository: spikebias
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/steevelaquitaine/spikebias
+- name: 'Preprint '
+  relation: dcite:Cites
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://doi.org/10.1101/2024.12.04.626805
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget:
+- Spike sorting
+- biophysical model
+- benchmark
+- spike sorting curation
+- spike train information content
+- spike sorting biases
+- spike train quality
+- neural code
 url: https://dandiarchive.org/dandiset/001250/draft
 version: draft
+wasGeneratedBy:
+- {}
