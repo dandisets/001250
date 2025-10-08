@@ -121,8 +121,7 @@ description: "Dataset for the publication: \"Spike sorting biases and informatio
   probe  Spontaneous and stimulus-evoked regime of activity were simulated for the
   Neuropixels probe. \n\n- 2) The ground truth spike timestamps of neurons within
   50 microns of the electrodes (about 1000 neurons).\n"
-ethicsApproval:
-- {}
+ethicsApproval: []
 id: DANDI:001250/draft
 identifier: DANDI:001250
 keywords:
@@ -178,6 +177,4 @@ studyTarget:
 - neural code
 url: https://dandiarchive.org/dandiset/001250/draft
 version: draft
-wasGeneratedBy:
-- {}
-- {}
+wasGeneratedBy: []
