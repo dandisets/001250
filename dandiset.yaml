@@ -28,8 +28,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 759130169459
-  numberOfFiles: 86
+  numberOfBytes: 759217556835
+  numberOfFiles: 98
   numberOfSubjects: 24
   schemaKey: AssetsSummary
   species:
@@ -40,7 +40,7 @@ assetsSummary:
   - ElectricalSeries
   - Units
   - ElectrodeGroup
-citation: Laquitaine, Steeve; Milo Imbeni; Tharayil, Joseph; Isbister, James; Reimann,
+citation: Laquitaine, Steeve; Imbeni, Milo; Tharayil, Joseph; Isbister, James; Reimann,
   Michael (2025) Spike sorting biases and information loss in a detailed cortical
   model (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001250/draft
 contributor:
@@ -74,7 +74,7 @@ contributor:
 - email: milo.imbeni@maastrichtuniversity.nl
   identifier: 0000-0002-4482-8390
   includeInCitation: true
-  name: Milo Imbeni
+  name: Imbeni, Milo
   roleName:
   - dcite:Investigation
   - dcite:Author
@@ -114,6 +114,7 @@ contributor:
   schemaKey: Person
   url: https://orcid.org/0000-0003-3455-2367
 dateCreated: '2024-11-07T14:18:15.892414+00:00'
+datePublished: '2025-10-12T16:48:00.413790+00:00'
 description: "Dataset for the publication: \"Spike sorting biases and information
   loss in a detailed cortical model\" containing:\n- 1) Biophysical simulations of
   high-density extracellular recordings of an entire cortical microcircuit activity
@@ -150,6 +151,18 @@ manifestLocation:
 name: Spike sorting biases and information loss in a detailed cortical model
 protocol:
 - https://www.biorxiv.org/content/10.1101/2024.12.04.626805v2
+publishedBy:
+  endDate: '2025-10-12T16:48:00.413790+00:00'
+  id: urn:uuid:326f0499-3cae-4580-b286-8db00382b954
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-10-12T16:48:00.413790+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:eff26f99-0e91-4049-a3d5-a2a4412e01bf
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: spikebias code repository
   relation: dcite:IsPartOf
