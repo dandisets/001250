@@ -42,7 +42,7 @@ assetsSummary:
   - ElectrodeGroup
 citation: Laquitaine, Steeve; Imbeni, Milo; Tharayil, Joseph; Isbister, James; Reimann,
   Michael (2025) Spike sorting biases and information loss in a detailed cortical
-  model (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001250/draft
+  model (Version 0.251012.1648) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001250/0.251012.1648
 contributor:
 - affiliation:
   - name: Sorbonne University, Vision Institute
@@ -122,8 +122,9 @@ description: "Dataset for the publication: \"Spike sorting biases and informatio
   probe  Spontaneous and stimulus-evoked regime of activity were simulated for the
   Neuropixels probe. \n\n- 2) The ground truth spike timestamps of neurons within
   50 microns of the electrodes (about 1000 neurons).\n"
+doi: 10.48324/dandi.001250/0.251012.1648
 ethicsApproval: []
-id: DANDI:001250/draft
+id: DANDI:001250/0.251012.1648
 identifier: DANDI:001250
 keywords:
 - spike sorting quality
@@ -147,7 +148,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001250/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001250/0.251012.1648/assets.yaml
 name: Spike sorting biases and information loss in a detailed cortical model
 protocol:
 - https://www.biorxiv.org/content/10.1101/2024.12.04.626805v2
@@ -188,6 +189,6 @@ studyTarget:
 - spike sorting biases
 - spike train quality
 - neural code
-url: https://dandiarchive.org/dandiset/001250/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001250/0.251012.1648
+version: 0.251012.1648
 wasGeneratedBy: []
