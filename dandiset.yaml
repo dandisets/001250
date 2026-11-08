@@ -42,7 +42,7 @@ assetsSummary:
   - ElectrodeGroup
 citation: Laquitaine, Steeve; Imbeni, Milo; Tharayil, Joseph; Isbister, James; Reimann,
   Michael (2026) Spike sorting biases and information loss in a detailed cortical
-  model (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001250/draft
+  model (Version 0.261108.1908) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001250/0.261108.1908
 contributor:
 - affiliation:
   - name: Sorbonne University, Vision Institute
@@ -114,6 +114,7 @@ contributor:
   schemaKey: Person
   url: https://orcid.org/0000-0003-3455-2367
 dateCreated: '2024-11-07T14:18:15.892414+00:00'
+datePublished: '2026-11-08T19:08:02.572588+00:00'
 description: "Dataset for the publication: \"Spike sorting biases and information
   loss in a detailed cortical model\" containing:\n- 1) Biophysical simulations of
   high-density extracellular recordings of an entire cortical microcircuit activity
@@ -121,8 +122,9 @@ description: "Dataset for the publication: \"Spike sorting biases and informatio
   probe  Spontaneous and stimulus-evoked regime of activity were simulated for the
   Neuropixels probe. \n\n- 2) The ground truth spike timestamps of neurons within
   50 microns of the electrodes (about 1000 neurons).\n"
+doi: 10.48324/dandi.001250/0.261108.1908
 ethicsApproval: []
-id: DANDI:001250/draft
+id: DANDI:001250/0.261108.1908
 identifier: DANDI:001250
 keywords:
 - spike sorting quality
@@ -146,10 +148,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001250/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001250/0.261108.1908/assets.yaml
 name: Spike sorting biases and information loss in a detailed cortical model
 protocol:
 - https://www.biorxiv.org/content/10.1101/2024.12.04.626805v2
+publishedBy:
+  endDate: '2026-11-08T19:08:02.572588+00:00'
+  id: urn:uuid:9b585d62-5edd-4bb2-8c3a-9da3ee0d7177
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-08T19:08:02.572588+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:f688412e-f5a0-4a32-af18-1d11a9fe9d40
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: spikebias code repository
   relation: dcite:IsPartOf
@@ -169,6 +183,7 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://pypi.org/project/spikebias/
+releaseNotes: Added new datasets
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
@@ -181,6 +196,6 @@ studyTarget:
 - spike sorting biases
 - spike train quality
 - neural code
-url: https://dandiarchive.org/dandiset/001250/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001250/0.261108.1908
+version: 0.261108.1908
 wasGeneratedBy: []
